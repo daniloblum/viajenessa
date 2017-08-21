@@ -1,0 +1,199 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-weight: lighter; 
+}
+
+/*.container {
+    width: 960px;
+}*/
+
+#topo {
+    background-image: url("images/topo_bg.png");
+    width: 100%;
+    height: 600px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.topo-info {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.topo-info h1,
+.topo-info h4 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    margin-right: 20px;
+}
+
+.topo-phone {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#arguments {
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+#arguments h2 {
+    margin-bottom: 40px;
+}
+
+.arg-item {
+   padding: 20px 80px;
+}
+
+.arg-item h4 {
+    margin-top: 20px;
+}
+
+#feature1 {
+    padding-bottom: 80px;
+    padding-top: 40px;
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-repeating-linear-gradient(8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* For Safari 5.1 to 6.0 */
+    background: -o-repeating-linear-gradient(8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* For Opera 11.1 to 12.0 */
+    background: -moz-repeating-linear-gradient(8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* For Firefox 3.6 to 15 */
+    background: repeating-linear-gradient(8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* Standard syntax */
+}
+
+#feature2 {
+    padding-bottom: 80px;
+    padding-top: 40px;
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-repeating-linear-gradient(-8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* For Safari 5.1 to 6.0 */
+    background: -o-repeating-linear-gradient(-8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* For Opera 11.1 to 12.0 */
+    background: -moz-repeating-linear-gradient(-8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* For Firefox 3.6 to 15 */
+    background: repeating-linear-gradient(-8deg, #fff, #fff 40%, #f5f5f5 0%, #f5f5f5 60%); /* Standard syntax */
+}
+
+.feature-phone {
+    text-align: center;
+}
+
+.feature-list {
+    padding-bottom: 40px;
+}
+
+.feature-list h2 {
+    margin-bottom: 40px;
+}
+
+.feature-list h4 {
+    color: #d34f1d;
+}
+
+.feature-list p {
+    margin-bottom: 20px;
+}
+
+#testimonial {
+    
+}
+
+/* Plugin carousel */
+
+.ca-container {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.ca-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*margin-left: 50%;
+    left: -1500px;*/
+}
+
+.ca-nav span{
+    width:25px;
+    height:38px;
+    background:transparent url(images/arrows.png) no-repeat top left;
+    position:absolute;
+    top:50%;
+    margin-top:-19px;
+    left:40px;
+    text-indent:-9000px;
+    opacity:0.7;
+    cursor:pointer;
+    z-index:100;
+}
+.ca-nav span.ca-nav-next{
+    background-position:top right;
+    left:auto;
+    right:40px;
+}
+.ca-nav span:hover{
+    opacity:1.0;
+}
+
+.ca-item {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 100%;
+    text-align: center;
+}
+
+
+#footer {
+    text-align: center;
+    padding-top: 80px;
+    background-color: #f5f5f5;
+}
+
+.credit {
+    margin: 40px auto 0;
+}
+
+/* responsive */
+
+@media (max-width: 767px) {
+    .topo-info {
+    padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .arg-item {
+        padding: 20px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    #topo {
+        padding-top: 80px;
+    }
+
+    .topo-phone {
+        margin-top: 40px;
+    }
+    
+    .arg-item {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
